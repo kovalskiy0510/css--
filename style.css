@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: rgb(253, 235, 252);
+    color: rgb(66, 1, 4);
+    margin: 25pt;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif; 
+
+    /*font: normal 16px 'Roboto', sans-serif; */ 
+}
+
+
+a { 
+    color: rgb(0, 87, 102);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(153, 250, 253);
+}
+a:visited {
+    color: rgb(112, 155, 155);
+}
+
+.avatar {
+    width: 180px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 17px rgb(0, 0, 0);
+}
+
+.info {
+    margin-bottom: 25px;
+    margin-left: 50px;
+    display: flex;
+}
+
+/* Для узкого формата */
+@media (max-width:800px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+/* Для узкого формата */
+
+.info-text { 
+margin-left: 35px;
+}
+
+.info p{
+    color:rgb(201, 136, 136);
+    margin: 0px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration-line:inherit;
+   
+    /*text-transform: */
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.container{
+    max-width: 750px;
+    margin: auto;
+}
+
+/* .education {
+    background: rgb(253, 154, 154);
+    
+    padding: 10px;
+    padding: 10px 25px;
+   
+    border: 3px solid rgb(243, 83, 118); 
+    border-bottom-style:groove;
+    border-right-style:groove;
+    border-top-width: 7px;
+    border-left-width:7px; 
+    
+    margin: 5px;
+    text-justify: black; 
+}  */
+
+
+/* .skils {
+    padding: 50px;
+    background-color: slateblue;
+} */
+
+.bg-education {
+background: rgb(255, 206, 188);
+}
+
+.bg-hobbies {
+    background: rgb(228, 224, 178);
+ }
+
+
+ .bg-skills {
+    background: rgb(245, 205, 230);
+}
+.bg-busya {
+    background: rgb(248, 198, 178);
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 28px;
+}
+
+.education {
+    padding: 0px 20px;
+    list-style:decimal
+}
+
+.education li {
+    color: black;
+    margin-top: 15px;
+    margin-block: 10px;
+}
+
+.hobby {
+    padding: 0px 20px;
+    list-style:circle
+}
+
+.hobby li {
+color: black;
+margin-top: 10px;
+margin-block: 7px;
+}
+
+.skills-table {
+    width: 100%;
+    font-weight: normal;
+    
+}
+.skills-table td {
+    padding-bottom: 10px;
+}
+
+.skills-table th {
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px
+}
+
+.skills-table td:nth-child(2),
+.skills-table td:nth-child(3) {
+    color: rgb(122, 114, 114);
+}
+
+.busya {
+    list-style: none;
+    border-bottom: 0.5px solid rgb(2, 133, 156);
+}
+
+.contact h2 {
+text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: black;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: rgb(253, 235, 252);
+    border-bottom: 1px solid rgb(255, 169, 169);
+    color:rgb(0, 0, 0);
+    padding: 10px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.btm {
+    background-color: lightcoral;
+    padding: 15px 20px;
+    color: rgb(0, 0, 0);
+    border:none;
+    font-family: inherit;
+    cursor: pointer; /* чтобы курсор был рукой */
+   
+}
+
+.btm:hover {
+    opacity: 0.9;
+} /* чтобы кнопочка при наведении немного имела другой цвет при наведении */
+
+/* ПОЗИЦИОНИРОВАНИЕ-новигация */
+
+.position {
+    position: relative;
+ border: 4px solid rgb(253, 235, 252);
+ margin-top: 20px;
+ padding: 20px;
+ height: 0px;
+}
+
+.box {
+    position:fixed;
+    top: 0px; 
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(172, 114, 125);
+    font-weight: bold;
+    font-size: 13pt;
+    text-align: center;
+
+} /* ПОЗИЦИОНИРОВАНИЕ */
